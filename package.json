@@ -1,0 +1,25 @@
+{
+  "name": "synapse-discord-bot",
+  "version": "1.0.0",
+  "description": "Synapse - AI Doctor Discord bot designed by Grok AI with BioTech and DeSci knowledge",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.26.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  },
+  "license": "MIT"
+}
+
